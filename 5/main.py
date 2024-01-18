@@ -54,7 +54,7 @@ class Fetcher:
         urls_todo.remove(self.url)
         if not urls_todo:
             stopped = True
-    
+
 fetcher = Fetcher('/353/')
 fetcher.fetch()
 
